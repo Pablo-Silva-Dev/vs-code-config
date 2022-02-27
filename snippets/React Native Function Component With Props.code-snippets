@@ -1,0 +1,22 @@
+{
+
+	 "Print to console": {
+	 	"prefix": "rnscfcp",
+	 	"body": [
+			"import React from 'react';",
+			"import { Container } from './styles';",
+			"",
+			"interface Props{",
+				"color: string",
+			"}",
+			"",
+			"export function Button({} : Props) {",
+			   "return (",
+			  "<Container>",
+			  "</Container>",
+			")",
+			"}"
+	 	],
+	 	"description": "Log output to console"
+	 }
+}

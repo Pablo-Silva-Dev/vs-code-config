@@ -1,0 +1,20 @@
+{
+
+	 "Print to console": {
+	 	"prefix": "rnscfc",
+	 	"body": [
+			"import React from 'react';",
+
+			"import { Container } from './styles';",
+			"",
+			"export function ${TM_DIRECTORY/.*[\\\\|\\/]+(.*)/$1/}() {",
+			"return (",
+					"  <Container>",
+					"",
+					"  </Container>",
+				")",
+			"}"
+	 	],
+	 	"description": "Basic React Native Functional Styled Component"
+	 }
+}
