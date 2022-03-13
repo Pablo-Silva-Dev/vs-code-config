@@ -14,7 +14,7 @@
         "javascript": "javascriptreact"
     },
     "editor.wordWrap": "wordWrapColumn",
-    "files.autoSaveDelay": 1200,
+    "files.autoSaveDelay": 1250,
     "workbench.startupEditor": "newUntitledFile",
     "editor.fontFamily": "Fira code",
     "editor.fontLigatures": true,
