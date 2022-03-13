@@ -1,0 +1,15 @@
+{
+	"React Native Styled Component": {
+		"prefix": "rsc",
+		"body": [
+		   "import styled from 'styled-components'",
+		   "",
+		   "export const Container = styled.div`",
+			   "display: flex",
+			   "justify-content: center;",
+			   "align-items: center;",
+		   "`"
+		],
+		"description": "Basic React Native Styled Component"
+	}
+}
