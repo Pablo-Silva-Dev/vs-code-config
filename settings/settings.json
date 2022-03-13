@@ -1,0 +1,83 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "explorer.confirmDragAndDrop": false,
+    "powermode.enabled": true,
+    "powermode.presets": "flames",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "emmet.syntaxProfiles": {"javascript": "jsx"},
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "editor.wordWrap": "wordWrapColumn",
+    "files.autoSaveDelay": 1200,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontFamily": "Fira code",
+    "editor.fontLigatures": true,
+    "editor.wordWrapColumn": 120,
+    "material-icon-theme.folders.theme": "specific",
+    "typescript.updateImportsOnFileMove.enabled": "always" ,
+    "explorer.compactFolders": false,
+    "html.format.wrapAttributes":"force",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.formatOnType": true,
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    
+    "[typescript]": {
+
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        }
+    },
+    "files.exclude": {
+        "**/node_modules": true
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "material-icon-theme.files.associations": {
+    
+    },
+    "material-icon-theme.folders.associations": {
+        "context": "stack"
+        
+    },
+    "editor.autoClosingBrackets": "always",
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint":  true
+    },
+    "splitHTMLAttributes.sortOrder": [
+    
+    ],
+    "splitHTMLAttributes.closingBracketOnNewLine": true,
+    "tabnine.experimentalAutoImports": true,
+    "grammarly.hideUnavailablePremiumAlerts": true,
+    "grammarly.debug": true,
+    "editor.hover.above": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "bracketPairColorizer.depreciation-notice": false,
+    "powermode.explosions.size": 5,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "sync.gist": "e4e976108543203b8db851d0aeec0783",
+    "files.autoSave": "afterDelay"
+} 
