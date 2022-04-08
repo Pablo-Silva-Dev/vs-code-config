@@ -1,0 +1,26 @@
+{
+  " React useEffect get async data": {
+    "scope": "",
+    "prefix": "rueg",
+    "body": [
+      "useEffect(() => {",
+      " let isMounted = true;",
+      "  async function getUsers() {",
+      "   try {",
+      "     const response = await api.get('/users')",
+      "     if (isMounted) {",
+      "     setUsers(response.data)",
+      "   }",
+      " } catch (error) {",
+      "   console.log(error)",
+      " }finally {",
+      "   if(isMounted) {",
+      "     setIsLoading(false)",
+      "   }",
+      " }",
+      "}",
+      "}, [])"
+    ],
+    "description": "React useEffect get async data"
+  }
+}

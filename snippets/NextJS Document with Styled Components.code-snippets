@@ -1,0 +1,30 @@
+{
+	 "Print to console": {
+	 	"prefix": "nd",
+	 	"body": [
+			"import Document, { Head, Html, Main, NextScript } from 'next/document'",
+			"import React from 'react'",
+			"",
+			"export default class MyDocument extends Document {",
+				"static async getInitialProps(ctx: any) {",
+					"const initialProps = await Document.getInitialProps(ctx)",
+					"return { ...initialProps }",
+				"}",
+				"render() {",
+					"return (",
+						"<Html>",
+							"<Head>",
+								"<meta name='author' content='Pablo Silva Dev' />",
+							"</Head>",
+							"<body>",
+								"<Main />",
+								"<NextScript />",
+							"</body>",
+						"</Html>",
+					")",
+				"}",
+			"}"
+	 	],
+	 	"description": "NextJS Document with Styled Components"
+	 }
+}

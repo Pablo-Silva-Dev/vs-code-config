@@ -1,0 +1,15 @@
+{
+	 "Print to console": {
+	 	"prefix": "sctt",
+	 	"body": [
+			"import 'styled-components';",
+			"import { theme } from './theme';",
+			"",
+			"declare module 'styled-components' {",
+			"  type ThemeType = typeof theme;",
+			"  export interface DefaultTheme extends ThemeType {}",
+			"}",
+	 	],
+	 	"description": "Styled Component Theme Type"
+	 }
+}
