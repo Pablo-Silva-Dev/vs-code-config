@@ -1,0 +1,38 @@
+{
+
+	 "Print to console": {
+	 	"prefix": "rtc",
+	 	"body": [
+			"import {render, screen} from '@testing-library/react'",
+			"import { ReactNode } from 'react'",
+			"import { ThemeProvider } from 'styled-components'",
+			"import { theme } from '../../../../themes/theme'",
+			"import  {${TM_DIRECTORY/.*[\\\\|\\/]+(.*)/$1/} } from './'",
+			"",
+			"interface ChildrenProps{",
+			"	children: ReactNode",
+			"}",
+			"",
+			"const StyledProvider : React.FC = ({children} : ChildrenProps) => {",
+			"	return(",
+			"		<ThemeProvider theme={theme}>",
+			"			{children}",
+			"		</ThemeProvider>",
+			"	)",
+			"}",
+			"",
+			"describe('${TM_DIRECTORY/.*[\\\\|\\/]+(.*)/$1/}', () => {",
+			"	it('should render correctly', () => {",
+			"	  render(",
+			"		<${TM_DIRECTORY/.*[\\\\|\\/]+(.*)/$1/}",
+			"		/>,{",
+			"			wrapper: StyledProvider",
+			"		}",
+			"		)",
+			"",
+			"	})",
+			"})",
+	 	],
+	 	"description": "React testing component"
+	 }
+}
